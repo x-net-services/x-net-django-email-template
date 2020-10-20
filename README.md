@@ -54,7 +54,7 @@ With the `full_static` template tag you can insert absolute urls in the email te
 ## Compatibility
 
 You can inline css to this HTML template with the [X-Net Email Inliner](https://github.com/x-net-services/x-net-email-css-inliner).
-We have test this HTML template in the following email client:
+We have test this HTML template with the following email client:
 
 * Apple Mail 13
 * Outlook 2007

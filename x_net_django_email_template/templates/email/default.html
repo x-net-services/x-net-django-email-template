@@ -72,7 +72,9 @@
   <table align="center" class="container footer" role="presentation">
     <tr>
       <td class="footer-content">
-        <p><small>{% trans "This is an automatically generated email, please do not reply to this message." %}</small></p>
+        {% block footer %}
+          <p><small>{% trans "This is an automatically generated email, please do not reply to this message." %}</small></p>
+        {% endblock %}
       </td>
     </tr>
   </table>

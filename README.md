@@ -1,4 +1,4 @@
-# X-Net Django Email template
+# X-Net Django Email Template
 
 This is the default email template that we use in our [company](https://www.x-net.at) for sending emails with django (registration, password forgot, eg.)
 

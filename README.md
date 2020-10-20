@@ -50,3 +50,29 @@ With the `full_static` template tag you can insert absolute urls in the email te
 {% load html_email %}
 <link rel="stylesheet" href="{% full_static "css/email/html-email.min.css" %}" />
 ```
+
+## Compatibility
+
+You can inline css to this HTML template with the [X-Net Email Inliner](https://github.com/x-net-services/x-net-email-css-inliner).
+We have test this HTML template in the following email client:
+
+* Apple Mail 13
+* Outlook 2007
+* Outlook 2010
+* Outlook 2013
+* Outlook 2013 with 120 DPI
+* Outlook 2016 (macOS)
+* Outlook 2016
+* Outlook 2016 with 120 DPI
+* Outlook 2019
+* Outlook 2019 with 120 DPI
+* Outlook Office 365
+* Thunderbird
+* Gmail App
+* Samsung Mail
+* Mail/iOS
+* Outlook Android
+* Outlook iOS
+* Office 365 (Browser)
+* Gmail (Browser)
+* GMX.de (Browser)

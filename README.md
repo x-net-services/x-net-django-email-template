@@ -1,15 +1,8 @@
-# Package name
-
-Insert a package description.
+# X-Net Django Email template
 
 ## Installation
 
-```
-pip install x_net_package_name
-```
+1. pip install `x_net_django_email_template`
+2. Add `x_net_django_email_template` to INSTALLED_APPS
 
 ## Example
-
-```
-from x_net_package_name import ...
-```

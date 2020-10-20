@@ -21,6 +21,7 @@ setup(
     install_requires=[
     ],
     classifiers=[
+        "Framework :: Django :: 2.2",
         "Programming Language :: Python :: 3.6",
         "Topic :: Internet :: WWW/HTTP",
     ],

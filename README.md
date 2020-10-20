@@ -11,7 +11,7 @@ This is the default email template that we use in our [company](https://www.x-ne
 
 When extends the default.html you can overwrite the blocks:
 
-```
+```html
 {% extends "email/default.html" %}
 
 {% load html_email i18n %}
@@ -46,7 +46,7 @@ When extends the default.html you can overwrite the blocks:
 
 With the `full_static` template tag you can insert absolute urls in the email template.
 
-```
+```html
 {% load html_email %}
 <link rel="stylesheet" href="{% full_static "css/email/html-email.min.css" %}" />
 ```

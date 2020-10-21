@@ -14,6 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     include_package_data=True,
     packages=find_packages(),
+    python_requires=">=3.6",
     classifiers=[
         "Framework :: Django :: 2.2",
         "License :: OSI Approved :: MIT License",

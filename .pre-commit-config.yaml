@@ -21,3 +21,8 @@ repos:
       - id: flake8
         args: ["--ignore=D100,D101,D104,E501", ]
         additional_dependencies: [flake8-docstrings]
+  - repo: https://github.com/mgedmin/check-manifest
+    rev: "0.44"
+    hooks:
+      - id: check-manifest
+        args: ["--ignore-bad-ideas=*.mo", ]

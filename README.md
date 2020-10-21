@@ -4,12 +4,12 @@ This is the default email template that we use in our [company](https://www.x-ne
 
 ## Installation
 
-1. pip install `x_net_django_email_template`
+1. `pip install x_net_django_email_template`
 2. Add `x_net_django_email_template` to INSTALLED_APPS
 
 ## Usage
 
-When extends the default.html you can overwrite the blocks:
+When extends the `default.html` you can overwrite the blocks:
 
 ```html
 {% extends "email/default.html" %}

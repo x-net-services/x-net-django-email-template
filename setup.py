@@ -17,6 +17,7 @@ setup(
     packages=find_packages(),
     python_requires=">=3.6",
     classifiers=[
+        "Framework :: Django",
         "Framework :: Django :: 2.2",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.6",

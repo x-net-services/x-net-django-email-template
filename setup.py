@@ -5,6 +5,7 @@ from setuptools import (
 
 import x_net_django_email_template
 
+
 with open("README.md", encoding="utf-8") as f:
     long_description = f.read()
 

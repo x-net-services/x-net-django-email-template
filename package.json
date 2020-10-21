@@ -1,7 +1,7 @@
 {
   "name": "x_net_django_email_template",
   "version": "",
-  "description": "A Email HTML template for Django",
+  "description": "An Email HTML template for Django",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/x-net-services/x-net-django-email-template"

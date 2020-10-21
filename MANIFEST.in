@@ -1,6 +1,0 @@
-include LICENSE
-include README.md
-graft x_net_django_email_template/locale
-graft x_net_django_email_template/static
-graft x_net_django_email_template/static_src
-graft x_net_django_email_template/templates

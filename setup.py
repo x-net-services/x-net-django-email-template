@@ -17,6 +17,7 @@ setup(
     version=x_net_django_email_template.__version__,
     long_description=long_description,
     long_description_content_type="text/markdown",
+    include_package_data=True,
     packages=find_packages(),
     install_requires=[
     ],
